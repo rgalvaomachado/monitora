@@ -1,6 +1,0 @@
-Data do Log: 
-23/03/2019 
-Tabelas Totais: 
-929 
-Backup Realizado: 
-929  
