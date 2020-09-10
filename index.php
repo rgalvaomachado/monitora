@@ -11,7 +11,7 @@
             <div class="login">
                 <center>
                     <h2>LOGIN</h2>
-                    <h1>Por favor, entre com seu usuario e senha</h1>
+                    <h1>Por favor, entre com seu usuario e senha!</h1>
                     <input type="text" placeholder="Usuario" name="usuario">
                     <input type="password" placeholder="Senha" name="senha">
                     <input type="submit" value="Entrar">
