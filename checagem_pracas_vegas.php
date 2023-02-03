@@ -10,7 +10,7 @@
 <?php
 //Checagem de Vegas
 for ($i=1; $i<count($cliente); $i++){
-    $arquivo = file("Files\\$cliente[0]/$cliente[$i]/NumTabelas_Vegas.txt");
+    $arquivo = file("files\\$cliente[0]/$cliente[$i]/NumTabelas_Vegas.txt");
     foreach($arquivo as $chave => $frase){
                 if ($chave == 1){
                     $data_arquivo = $frase;

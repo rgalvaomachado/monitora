@@ -4,7 +4,7 @@
     $erro=$_GET["Erro"];
     echo '<b>Local:</b> '.$praca.'<br>';
     echo '</br>';
-    $arquivo = file("Files\\$cliente\\$praca\\$erro");
+    $arquivo = file("files\\$cliente\\$praca\\$erro");
     foreach($arquivo as $frase){
         echo $frase;
     }
