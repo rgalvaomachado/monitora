@@ -1,6 +1,5 @@
 <?php
-    include 'controller/local.php';
-    
+    include 'controller/backup.php';
     class Router {
 
         private $data = [];
@@ -60,7 +59,7 @@
                 if ($RouteMethod == $this->method && $RoutePath == $this->path){
                     $Class = new $RouteClass();
                     if (method_exists($Class,$RouteFunction)){
-                        return $Class->$RouteFunction($this->data);
+                        return $Class->$RouteFunction($this->data, $this->token);
                     } else {
                         http_response_code(405);
                     }
