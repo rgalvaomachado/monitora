@@ -1,6 +1,0 @@
-Data do Log: 
-15/07/2019 
-Tabelas Totais: 
-928 
-Backup Realizado: 
-928  

@@ -1,6 +1,0 @@
-Data do Log: 
-01/09/2020 
-Tabelas Totais: 
-933 
-Backup Realizado: 
-933  
