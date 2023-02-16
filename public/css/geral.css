@@ -1,0 +1,120 @@
+a, p, label, option, input, td, tr{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #dbdbdb;
+}
+
+label{
+    font-size: 20px;
+}
+
+.input {
+    width: 70%;
+    /* border-radius: 7px; */
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 2px;
+    width: 10%;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+
+.title{
+    color: rgb(0, 60, 0);
+    font-weight: bold;
+}
+
+#content{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+
+.grid{
+    border: 3px solid black;
+    width: 80%;
+    font-size: 22px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr:hover {
+    background-color: #0066ff52;
+}
+
+.editar{
+    color:green;
+}
+
+.excluir{
+    color:red;
+} 
+
+.criar{
+    color:blue;
+} 
+
+dialog{
+    margin: 100px auto;
+    border-radius: 5%;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    max-height: 50%;
+}
+
+dialog input, dialog select{
+    width: 80%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+dialog input[type=submit], dialog input[type=button]{
+    width: 25%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+dialog input[type=submit]:hover{
+    background-color: green;
+    color: white;
+}
+
+dialog input[type=button]:hover{
+    background-color: red;
+    color: white;
+}
+
+dialog::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+
+#RepostaController{
+    display: none;
+}

@@ -1,0 +1,99 @@
+#topMenu{
+  padding: 10px;
+  background-color: #222;
+}
+
+#topMenu a {
+  font-size: 30px;
+  text-decoration: none;
+  color:white;
+}
+
+#topMenu img {
+  float: right;
+  height: 30px;
+}
+
+.linha-menu {
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background: #555;
+  margin: 4px;
+  display: block;
+}
+
+#botaoMenu{
+  margin-left: 93%;
+  margin-right: 2%;
+}
+
+#barraSuperior{
+  background-color: orange;
+  padding: 5px;
+}
+
+#checkMenu{
+  display: none;
+}
+
+#content, #menu{
+  text-align: center;
+}
+
+#menu {
+  background-color: #555;
+}
+
+.subMenu{
+  display: none;
+}
+
+li a:hover{
+  background-color: green;
+  color: white; 
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+} 
+
+@media (min-width: 800px){
+  #botaoMenu{
+    display: none;
+  }
+
+  #barraSuperior{
+    display: none;
+  }
+
+  #menu{
+    float: left;
+    padding: 0;
+    width: 15%;
+  }
+
+  #content{
+    float: right;
+    padding: 0;
+    padding-top: 30px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 800px){
+  .botaoMenu{
+    display: block;
+  }
+
+  .menu{
+    display: none;
+  }
+}
