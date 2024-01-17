@@ -1,7 +1,7 @@
 function logout(){
     $.ajax({
         method: "POST",
-        url: "/controller/Controller.php",
+        url: "/src/controller/controller.php",
         data: {
             metodo: "logout"
         },

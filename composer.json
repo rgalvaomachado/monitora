@@ -1,0 +1,15 @@
+{
+    "name": "rgalv/monitora.hubis",
+    "autoload": {
+        "psr-4": {
+            "Rgalv\\MonitoraHubis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rômulo Galvão Machado",
+            "email": "rgalvaomachado@gmail.com"
+        }
+    ],
+    "require": {}
+}

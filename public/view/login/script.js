@@ -5,7 +5,7 @@ $(document).ready(function() {
         var senha = $("#senha").val();
         $.ajax({
             method: "POST",
-            url: "/controller/Controller.php",
+            url: "/src/controller/controller.php",
             data: {
                 metodo: "login",
                 login: login,

@@ -1,5 +1,8 @@
 
 <?php include_once('public/view/admin/menu.php') ?>
+<head>
+    <script src="/public/view/admin/dashboard/script.js"></script>
+</head>
 <div id="content">
     <div class="table-responsive">
         Backups
@@ -77,13 +80,6 @@
             </tr>
         </table>
     </div>
-    <?php
-        $host =   "www.hubis.com";
-        exec("ping -n 1 -w 1 " . $host, $output, $result);
-        if ($result == 0) {
-            echo "$host up";
-        } else {
-            echo "$host down";
-        }
-    ?>
+    <br>
+    <button onclick="monitoraInternet();" type="button">Monitorar Internet</button>
 </div>
