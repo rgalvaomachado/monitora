@@ -14,11 +14,12 @@ class LoginController {
         }
     }
 
-    function logout(){
-        session_start();
-        $_SESSION['usuario'] =  "";
+    public function logout(){
         $_SESSION['modo'] = "";
-        session_destroy();
+        return json_encode([
+            "access" => true,
+            "message" => "Logout efetuado com sucesso",
+        ]);
     }
 }
 ?>

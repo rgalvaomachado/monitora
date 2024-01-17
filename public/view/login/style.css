@@ -1,0 +1,113 @@
+html, body {
+  background-color: #f2f2f2;
+}
+
+#nao_conta{
+  font-size: 12px;
+}
+
+#contato{
+  border: solid 1px #004fde;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#contato:hover{
+  color: #ffffff;
+  background-color: #004fde;
+}
+
+#faca_login{
+  text-align: center;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+#gestor_edu{
+  text-align: center;
+  padding: 50px;
+}
+#gestor_edu img{
+  width: 300px;
+}
+
+#logo{
+  width: 200px;
+  text-align: center;
+}
+
+.input, .button{
+  width: 100%;
+}
+
+.error_login{
+  border: 1px solid #8b2021;
+  background-color: #efc7c7;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.error_login label{
+  font-size: 15px;
+  vertical-align: middle; 
+}
+
+#cancel{
+  width: 15px;
+  vertical-align: middle; 
+}
+
+.title{
+  font-size: 30px;
+  color: #004fde;
+}
+
+@media (min-width: 800px){
+  .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    text-align: center;
+    margin: 200px auto auto auto;
+  }
+
+  #nao_tem_conta1{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #nao_tem_conta2{
+    display: none;
+  }
+}
+
+@media (max-width: 800px){
+  #faca_login{
+    width: 60%;
+    margin: auto;
+  }
+
+  #nao_tem_conta2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #nao_tem_conta1{
+    display: none;
+  }
+
+  #gestor_edu img{
+    width: 100%;
+  }
+}

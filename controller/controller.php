@@ -8,6 +8,10 @@
             $login = new LoginController();
             $response = $login->login($_POST);
             break;
+        case 'logout':
+            $login = new LoginController();
+            $response = $login->logout($_POST);
+            break;
         ///////////////////////////////////////////////////////////////////////////////
         default:
             $response ="Método não encontrado";

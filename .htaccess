@@ -1,8 +1,4 @@
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ view/$1 [L]
-
-Options +Indexes
-IndexOptions FancyIndexing
-DirectoryIndex view/login.php
+RewriteCond %(SCRIPT_FILENAME) !-f
+RewriteCond %(SCRIPT_FILENAME) !-d
+RewriteRule ^(.*)$ index.php [L]

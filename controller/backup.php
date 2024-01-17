@@ -2,6 +2,7 @@
     include_once ("model/backup.php");
     class BackupController {
         function get($data = null, $token = null){
+            echo 'getBackups';
         }
 
         function create($data = null, $token = null){
